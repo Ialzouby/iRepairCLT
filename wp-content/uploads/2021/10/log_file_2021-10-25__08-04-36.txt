@@ -1,0 +1,65 @@
+
+---Downloaded files---
+The import files for: Braintech Demo Import were successfully downloaded!
+Initial max execution time = 90
+Files info:
+Site URL = https://demo-url.com/irepairclt
+Data file = /home4/demourlc/public_html/irepairclt/wp-content/uploads/2021/10/demo-content-import-file_2021-10-25__08-04-36.xml
+Widget file = /home4/demourlc/public_html/irepairclt/wp-content/uploads/2021/10/demo-widgets-import-file_2021-10-25__08-04-36.json
+Customizer file = not defined!
+Redux files:
+braintech_option -> /home4/demourlc/public_html/irepairclt/wp-content/uploads/2021/10/demo-redux-import-file_0-2021-10-25__08-04-36.json 
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Widget already exists
+RS Recent Post Widget - Recent Posts - Widget already exists
+Categories - No Title - Widget already exists
+
+Off Canvas Sidebar : 
+
+Text - No Title - Widget already exists
+
+Project Sidebar : 
+
+Custom HTML - Brochures - Widget already exists
+Custom HTML - No Title - Widget already exists
+
+Service Sidebar : 
+
+Navigation Menu - No Title - Widget already exists
+
+CTA Widget : 
+
+RS CTA Info - Grow Your Business and Build Your Website or Software With Us. - Widget already exists
+
+Footer One Widget Area : 
+
+Custom HTML - No Title - Widget already exists
+RS Social Icon Widget - No Title - Widget already exists
+
+Footer Two Widget Area : 
+
+Navigation Menu - IT Services - Widget already exists
+
+Footer Three Widget Area : 
+
+RS Contact Info - Contact Info - Widget already exists
+
+Footer Four Widget Area : 
+
+Custom HTML - Newsletter - Widget already exists
+
+Copyright Right : 
+
+Navigation Menu - No Title - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: braintech_option finished successfully!
+
+---ocdi/after_import---
+

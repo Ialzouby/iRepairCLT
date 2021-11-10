@@ -1,0 +1,250 @@
+
+---Downloaded files---
+The import files for: Braintech Demo Import were successfully downloaded!
+Initial max execution time = 90
+Files info:
+Site URL = https://demo-url.com/irepairclt
+Data file = /home4/demourlc/public_html/irepairclt/wp-content/uploads/2021/10/demo-content-import-file_2021-10-25__07-37-09.xml
+Widget file = /home4/demourlc/public_html/irepairclt/wp-content/uploads/2021/10/demo-widgets-import-file_2021-10-25__07-37-09.json
+Customizer file = not defined!
+Redux files:
+braintech_option -> /home4/demourlc/public_html/irepairclt/wp-content/uploads/2021/10/demo-redux-import-file_0-2021-10-25__07-37-09.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[WARNING] Failed to import "": Invalid post type mc4wp-form
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+RS Recent Post Widget - Recent Posts - Imported
+Categories - No Title - Imported
+
+Off Canvas Sidebar : 
+
+Text - No Title - Imported
+
+Project Sidebar : 
+
+Custom HTML - Brochures - Imported
+Custom HTML - No Title - Imported
+
+Service Sidebar : 
+
+Navigation Menu - No Title - Imported
+
+CTA Widget : 
+
+RS CTA Info - Grow Your Business and Build Your Website or Software With Us. - Imported
+
+Footer One Widget Area : 
+
+Custom HTML - No Title - Imported
+RS Social Icon Widget - No Title - Imported
+
+Footer Two Widget Area : 
+
+Navigation Menu - IT Services - Imported
+
+Footer Three Widget Area : 
+
+RS Contact Info - Contact Info - Imported
+
+Footer Four Widget Area : 
+
+Custom HTML - Newsletter - Imported
+
+Copyright Right : 
+
+Navigation Menu - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: braintech_option finished successfully!
+
+---ocdi/after_import---
+

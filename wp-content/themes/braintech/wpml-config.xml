@@ -1,0 +1,129 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">elementor_library</custom-type>
+    <custom-type translate="1" display-as-translated="1">wpcf7_contact_form</custom-type>
+    <custom-type translate="1" display-as-translated="1">teams</custom-type>
+    <custom-type translate="1" display-as-translated="1">portfolios</custom-type>
+    <custom-type translate="1" display-as-translated="1">testimonials</custom-type>
+    <custom-type translate="1" display-as-translated="1">rselements_pro</custom-type>
+    <custom-type translate="1" display-as-translated="1">mc4wp-form</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">_wp_page_template</custom-field>
+    <custom-field action="translate">_form</custom-field>
+    <custom-field action="translate">_mail</custom-field>
+    <custom-field action="translate">_mail_2</custom-field>
+    <custom-field action="translate">_messages</custom-field>
+    <custom-field action="translate">_additional_settings</custom-field>
+    <custom-field action="translate">_locale</custom-field>
+    <custom-field action="translate">_wp_attached_file</custom-field>
+    <custom-field action="translate">_wp_attachment_metadata</custom-field>
+    <custom-field action="translate">_wxr_import_parent</custom-field>
+    <custom-field action="translate">_elementor_data</custom-field>
+    <custom-field action="translate">_elementor_version</custom-field>
+    <custom-field action="translate">_elementor_template_type</custom-field>
+    <custom-field action="translate">_wp_attachment_image_alt</custom-field>
+    <custom-field action="translate">_elementor_controls_usage</custom-field>
+    <custom-field action="translate">_elementor_inline_svg</custom-field>
+    <custom-field action="translate">_elementor_source_image_hash</custom-field>
+    <custom-field action="translate">_elementor_edit_mode</custom-field>
+    <custom-field action="translate">_mc4wp_settings</custom-field>
+    <custom-field action="translate">text_subscribed</custom-field>
+    <custom-field action="translate">text_invalid_email</custom-field>
+    <custom-field action="translate">text_required_field_missing</custom-field>
+    <custom-field action="translate">text_already_subscribed</custom-field>
+    <custom-field action="translate">text_error</custom-field>
+    <custom-field action="translate">text_unsubscribed</custom-field>
+    <custom-field action="translate">text_not_subscribed</custom-field>
+    <custom-field action="translate">text_no_lists_selected</custom-field>
+    <custom-field action="translate">text_updated</custom-field>
+    <custom-field action="translate">_wp_old_date</custom-field>
+    <custom-field action="translate">_menu_item_type</custom-field>
+    <custom-field action="translate">_menu_item_menu_item_parent</custom-field>
+    <custom-field action="translate">_menu_item_object_id</custom-field>
+    <custom-field action="translate">_menu_item_object</custom-field>
+    <custom-field action="translate">_menu_item_target</custom-field>
+    <custom-field action="translate">_menu_item_classes</custom-field>
+    <custom-field action="translate">_menu_item_xfn</custom-field>
+    <custom-field action="translate">_menu_item_url</custom-field>
+    <custom-field action="translate">_menu_item_orphaned</custom-field>
+    <custom-field action="translate">custom_sidebar</custom-field>
+    <custom-field action="translate">layout</custom-field>
+    <custom-field action="translate">content_top</custom-field>
+    <custom-field action="translate">content_bottom</custom-field>
+    <custom-field action="translate">copyright_padding</custom-field>
+    <custom-field action="translate">eael_transient_elements</custom-field>
+    <custom-field action="translate">_happyaddons_elements_cache</custom-field>
+    <custom-field action="translate">_wxr_import_has_attachment_refs</custom-field>
+    <custom-field action="translate">slide_template</custom-field>
+    <custom-field action="translate">rs_rev_slider</custom-field>
+    <custom-field action="translate">_oembed_1b36688543d4d62a4a94550f822b61eb</custom-field>
+    <custom-field action="translate">_oembed_time_1b36688543d4d62a4a94550f822b61eb</custom-field>
+    <custom-field action="translate">rs_page_bg_color</custom-field>
+    <custom-field action="translate">banner_image_id</custom-field>
+    <custom-field action="translate">banner_image</custom-field>
+    <custom-field action="translate">center-menus</custom-field>
+    <custom-field action="translate">banner_title</custom-field>
+    <custom-field action="translate">content_banner</custom-field>
+    <custom-field action="translate">button_text</custom-field>
+    <custom-field action="translate">button_link</custom-field>
+    <custom-field action="translate">banner_hide</custom-field>
+    <custom-field action="translate">select-title</custom-field>
+    <custom-field action="translate">select-bread</custom-field>
+    <custom-field action="translate">_dp_original</custom-field>
+    <custom-field action="translate">header_select</custom-field>
+    <custom-field action="translate">menu-type</custom-field>
+    <custom-field action="translate">select-top</custom-field>
+    <custom-field action="translate">select-search</custom-field>
+    <custom-field action="translate">show-cart-icon</custom-field>
+    <custom-field action="translate">select-logo</custom-field>
+    <custom-field action="translate">show-off-canvas</custom-field>
+    <custom-field action="translate">show-quote</custom-field>
+    <custom-field action="translate">_wpb_shortcodes_custom_css</custom-field>
+    <custom-field action="translate">_thumbnail_id</custom-field>
+    <custom-field action="translate">tagline</custom-field>
+    <custom-field action="translate">created</custom-field>
+    <custom-field action="translate">date</custom-field>
+    <custom-field action="translate">location</custom-field>
+    <custom-field action="translate">client</custom-field>
+    <custom-field action="translate">surface_area</custom-field>
+    <custom-field action="translate">project_value</custom-field>
+    <custom-field action="translate">screenshot</custom-field>
+    <custom-field action="translate">_wpb_vc_js_status</custom-field>
+    <custom-field action="translate">image_select</custom-field>
+    <custom-field action="translate">_wp_old_slug</custom-field>
+    <custom-field action="translate">client_name</custom-field>
+    <custom-field action="translate">location_name</custom-field>
+    <custom-field action="translate">surface_area_title</custom-field>
+    <custom-field action="translate">complete_title</custom-field>
+    <custom-field action="translate">created_title</custom-field>
+    <custom-field action="translate">project_value_title</custom-field>
+    <custom-field action="translate">header_width_custom</custom-field>
+    <custom-field action="translate">_pingme</custom-field>
+    <custom-field action="translate">facebook</custom-field>
+    <custom-field action="translate">twitter</custom-field>
+    <custom-field action="translate">google_plus</custom-field>
+    <custom-field action="translate">linkedin</custom-field>
+    <custom-field action="translate">description</custom-field>
+    <custom-field action="translate">website</custom-field>
+    <custom-field action="translate">phone</custom-field>
+    <custom-field action="translate">address</custom-field>
+    <custom-field action="translate">city</custom-field>
+    <custom-field action="translate">state</custom-field>
+    <custom-field action="translate">country</custom-field>
+    <custom-field action="translate">email</custom-field>
+    <custom-field action="translate">company</custom-field>
+    <custom-field action="translate">speciality</custom-field>
+    <custom-field action="translate">appoint_link</custom-field>
+    <custom-field action="translate">appointment</custom-field>
+    <custom-field action="translate">team_desination</custom-field>
+    <custom-field action="translate">member_skill</custom-field>
+    <custom-field action="translate">designation</custom-field>
+    <custom-field action="translate">shortbio</custom-field>
+    <custom-field action="translate">_encloseme</custom-field>
+    <custom-field action="translate">ratings</custom-field>
+    <custom-field action="translate">_elementor_css</custom-field>
+    <custom-field action="translate">_edit_lock</custom-field>
+    <custom-field action="translate">_edit_last</custom-field>
+  </custom-fields>
+</wpml-config>
