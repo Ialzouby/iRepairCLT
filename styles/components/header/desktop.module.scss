@@ -1,0 +1,175 @@
+@import 'styles/theme';
+
+.desktop_nav {
+	padding: 10px 20px;
+	position: relative;
+	z-index: 1;
+
+	.logo {
+		margin: auto;
+		position: relative;
+		z-index: 2;
+		cursor: pointer;
+	}
+
+	.side_row {
+		position: relative;
+		width: fit-content;
+
+		.icon {
+			margin: 0 10px;
+			width: 35px;
+			height: 35px;
+			cursor: pointer;
+		}
+	}
+
+	.nav_row {
+		position: relative;
+		flex: 2;
+		width: 100%;
+	}
+
+	.menu_item {
+		position: relative;
+		.nav_link {
+			position: relative;
+			cursor: pointer;
+			height: 100%;
+			padding: 20px 10px;
+			text-align: center;
+			z-index: 1;
+			color: $black;
+	
+			&:after {
+				content: '';
+				margin-right: auto;
+				display: block;
+				height: 2px;
+				background-color: $primary;
+				transition: 250ms ease-out;
+				width: 0;
+			}
+	
+			&:hover {
+				color: $grey;
+				&::after {
+					width: 100%;
+				}
+			}
+		}
+
+		.sub_nav_outer {
+			padding-top: 45px;
+			background-color: transparent;
+			color: $black;
+			transition: .2s;
+			position: absolute;
+			top: calc(100% - 15px);
+			z-index: -1;
+			opacity: 0;
+			transform: translateY(-15px);
+			pointer-secondary-light: none;
+			left: 0;
+			right: 0;
+			margin: auto;
+
+			.sub_nav_inner {
+				position: relative;
+				width: max-content;
+				background-color: $white;
+				left: 50%;
+				transform: translateX(-50%);
+				border-radius: 6px;
+				box-shadow: 0 0 8px 0px rgba(60, 60, 60, .3);
+				&::before {
+					position: absolute;
+					top: -10px;
+					width: 1px;
+					border-bottom: 10px solid $white;
+					border-left: 10px solid transparent;
+					border-right: 10px solid transparent;
+					z-index: 1;
+					content: '';
+				}
+			}
+
+			.nav_link {
+				padding: 20px;
+			}
+		}
+
+		&:hover {
+			.sub_nav_outer {
+				opacity: 1;
+				transform: translate(0);
+				pointer-secondary-light: inherit;
+			}
+		}
+	}
+
+	.contact_backdrop {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(60, 60, 60, .3);
+		z-index: 1001;
+		cursor: alias;
+	}
+
+	.contact_modal {
+		position: absolute;
+		width: fit-content;
+		right: 0;
+		background-color: $white;
+		border-radius: 6px;
+		box-shadow: 0 0 8px 0px rgba(60, 60, 60, .3);
+		padding: 10px 0;
+		top: 55px;
+		opacity: 0;
+		transition: 300ms;
+		z-index: 1002;
+		
+		&.visible {
+			top: 85px;
+			opacity: 1;
+			transition: 300ms;
+		}
+		
+		&::before {
+			position: absolute;
+			top: -10px;
+			width: 1px;
+			right: 72px;
+			border-bottom: 10px solid $white;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			z-index: 1;
+			content: '';
+		}
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.desktop_nav {
+		.menu_item {
+			.nav_link {
+				padding: 20px 15px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.desktop_nav {
+		.menu_item {
+			.nav_link {
+				padding: 20px;
+			}
+		}
+	}
+}

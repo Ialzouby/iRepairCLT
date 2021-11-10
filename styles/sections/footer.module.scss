@@ -1,0 +1,56 @@
+@import 'styles/theme';
+
+.footer {
+	position: relative;
+	width: 100%;
+	background-color: $white;
+	padding: 10px 20px;
+
+	.copy_text {
+		font-size: 13px;
+		a {
+			font-size: 13px;
+		}
+	}
+
+	.logo_row {
+		position: relative;
+		width: 100%;
+		padding: 20px;
+		padding-top: 10px;
+	}
+	
+	.side_row {
+		position: relative;
+		width: 100%;
+		padding: 20px 0;
+
+		.icon {
+			margin: 0 10px;
+			width: 35px;
+			height: 35px;
+			cursor: pointer;
+		}
+	}
+
+	.full_row {
+		margin-top: 5px;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+@media screen and (min-width: 600px) {
+	.footer {
+		.side_row {
+			width: fit-content;
+			padding: 0;
+		}
+
+		.logo_row {
+			width: fit-content;
+			padding: 0;
+		}
+	}
+}

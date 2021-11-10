@@ -1,5 +1,0 @@
-body [class^="flaticon-"]:before, 
-body [class*=" flaticon-"]:before, 
-body [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    margin-left: 0px;
-}

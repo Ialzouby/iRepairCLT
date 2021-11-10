@@ -1,0 +1,28 @@
+.nav_bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  background-color: #451A8D;
+  color: #f1f3f1;
+  padding: 5px 10px;
+  box-shadow: 0 0 8px 0px rgba(50,50,50,.5);
+
+  .logo {
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 1px;
+    margin: 0 5px 0 15px;
+  }
+
+  a {
+    margin: 0 10px;
+
+    &:hover {
+      color: #ad36cb;
+    }
+  }
+}

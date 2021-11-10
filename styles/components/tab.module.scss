@@ -1,0 +1,45 @@
+@import "styles/theme";
+
+.tab_outer {
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 1px solid $grey-light;
+	padding: 18px 2px;
+
+	&.sm {
+		padding: 10px 2px;
+	}
+
+	h5, h6 {
+		margin-bottom: 0;
+	}
+
+	.carrot {
+		transition: 300ms;
+		transform: rotateZ(-90deg);
+		transform-origin: center;
+		position: relative;
+
+		&.rotate {
+			transform: rotateZ(0)
+		}
+	}
+
+	.tab_inner {
+		transition: 300ms;
+		height: 0;
+		overflow: hidden;
+		cursor: pointer;
+		position: relative;
+
+		h4 {
+			margin-top: 20px;
+		}
+		
+		> div {
+			padding: 20px;
+			padding-bottom: 0;
+		}
+	}
+}

@@ -1,0 +1,87 @@
+@import 'styles/theme';
+
+.card {
+  box-shadow: 0 0 -1px 20px rgba(50, 50, 50, .5);
+}
+
+.thin {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.serif {
+  font-family: $serif;
+}
+
+.sans {
+  font-family: $sans;
+}
+
+.legal {
+  color: $grey;
+}
+
+.text_white {
+  color: $white;
+}
+
+.text_grey {
+  color: $grey;
+}
+
+.text_black {
+  color: $black;
+}
+
+.text_primary {
+  color: $primary;
+}
+
+.text_secondary {
+  color: $secondary;
+}
+
+.text_complementary {
+  color: $complementary;
+}
+
+.animation {
+  transition: .5s ease-in-out;
+  transition-delay: .2s;
+
+  &.animate_in_top {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  &.animate_in_bottom {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  &.animate_in_left {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  
+  &.animate_in_right {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  &.animate_in_end {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

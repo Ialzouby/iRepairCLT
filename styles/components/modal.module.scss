@@ -1,0 +1,76 @@
+@import 'styles/theme.scss';
+
+.modal_outer {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(200, 200, 200, .6);
+	z-index: 1000;
+	opacity: 0;
+	pointer-secondary-light: none;
+	transition: .4s;
+	cursor: pointer;
+
+	&.modal_open {
+		opacity: 1;
+		pointer-secondary-light: initial;
+
+		.modal_inner {
+			transform: translateY(0);
+		}
+	}
+
+	.modal_inner {
+		position: relative;
+		width: 95%;
+		height: 80%;
+		max-width: 1300px;
+		box-shadow: 1px 1px 5px 1px rgba(50, 50, 50, .3);
+		margin: auto;
+		background-color: $white;
+		transform: translateY(-30px);
+		transition: .4s;
+		cursor: text;
+		border-radius: 6px;
+		overflow: hidden;
+
+		.close_btn {
+			position: absolute;
+			right: 2px;
+			top: 2px;
+			width: 30px;
+			height: 30px;
+			background: $grey-light;
+			border-radius: 50%;
+			cursor: pointer;
+			transition: .3s;
+			z-index: 2;
+			box-shadow: 1px 1px 5px 1px rgba(50, 50, 50, .3);
+
+			&::before {
+				content: "x";
+				font-weight: bold;
+				color: $primary-dark;
+				font: $serif;
+				font-size: 20px;
+				line-height: 20px;
+				position: absolute;
+				left: 11px;
+				top: 4px;
+				transition: .25s;
+			}
+
+			&:hover {
+				background: $grey-dark;
+
+				&::before {
+					color: $primary-light;
+				}
+			}
+		}
+	}
+}

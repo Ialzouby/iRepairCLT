@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.4666669"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="14. Chat Communication message, bubble, speech, talk, dialog.svg">
+  <defs
+     id="defs2">
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-3" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-2" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-1" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-5" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.656854"
+     inkscape:cx="4.5428534"
+     inkscape:cy="1.7941017"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1280"
+     inkscape:window-height="658"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     guidecolor="#af0000"
+     guideopacity="0.49803922"
+     guidehicolor="#ff4b4b"
+     guidehiopacity="0.49803922"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid815"
+       empspacing="1"
+       originx="0"
+       originy="0"
+       spacingx="0"
+       spacingy="0"
+       snapvisiblegridlinesonly="true"
+       visible="true"
+       enabled="true"
+       dotted="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Guides"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-288.53332)">
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.26458332;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 0.52916662,289.06249 v 0.2155 3.30545 H 1.1241537 l -0.14750358,1.6259 1.60679598,-1.6259 h 0.4856021 v 2.26233 h 2.8406899 l 1.6092824,1.62506 -0.1483327,-1.62506 h 0.5668123 v -3.52011 H 5.4523108 v -2.26317 z m 0.4259377,0.42766 H 5.0296877 v 1.83551 h -0.00165 v 0.21466 0.61212 H 2.4086036 l -0.9024249,0.9098 0.084525,-0.9098 H 0.95511172 Z m 0.94302968,0.98777 a 0.2928948,0.29580911 0 0 0 -0.2925214,0.29599 0.2928948,0.29580911 0 0 0 0.2925214,0.29517 0.2928948,0.29580911 0 0 0 0.29335,-0.29517 0.2928948,0.29580911 0 0 0 -0.29335,-0.29599 z m 1.0930188,0 a 0.2928948,0.29580911 0 0 0 -0.2925213,0.29599 0.2928948,0.29580911 0 0 0 0.2925213,0.29517 0.2928948,0.29580911 0 0 0 0.2933505,-0.29517 0.2928948,0.29580911 0 0 0 -0.2933505,-0.29599 z m 1.0930193,0 a 0.2928948,0.29580911 0 0 0 -0.2925214,0.29599 0.2928948,0.29580911 0 0 0 0.2925214,0.29517 0.2928948,0.29580911 0 0 0 0.2933504,-0.29517 0.2928948,0.29580911 0 0 0 -0.2933504,-0.29599 z m 1.3681387,1.27706 h 2.0609089 v 2.66147 H 6.9049739 l 0.083696,0.9123 -0.9032535,-0.9123 h -2.592088 v -1.83301 h 1.9589823 v -8.6e-4 z m -1.0416414,0.9861 a 0.2928948,0.29580911 0 0 0 -0.2933504,0.296 0.2928948,0.29580911 0 0 0 0.2933504,0.29516 0.2928948,0.29580911 0 0 0 0.2925214,-0.29516 0.2928948,0.29580911 0 0 0 -0.2925214,-0.296 z m 1.0930192,0 a 0.2928948,0.29580911 0 0 0 -0.2933504,0.296 0.2928948,0.29580911 0 0 0 0.2933504,0.29516 0.2928948,0.29580911 0 0 0 0.2925214,-0.29516 0.2928948,0.29580911 0 0 0 -0.2925214,-0.296 z m 1.0930188,0 a 0.2928948,0.29580911 0 0 0 -0.29335,0.296 0.2928948,0.29580911 0 0 0 0.29335,0.29516 0.2928948,0.29580911 0 0 0 0.2925214,-0.29516 0.2928948,0.29580911 0 0 0 -0.2925214,-0.296 z"
+       id="rect939"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
