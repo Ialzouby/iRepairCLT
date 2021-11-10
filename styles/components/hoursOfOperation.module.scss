@@ -1,0 +1,24 @@
+@import "/styles/theme.scss";
+.hours_of_operation {
+	color: $black;
+
+	.hours { 
+		padding: 0;
+		padding-top: 8px;
+		margin: 0;
+		
+		li {
+			list-style: none;
+			padding: 4px;
+			color: $grey-dark;
+
+			&.today {
+				color: $primary;
+			}
+		}
+
+		&.small li {
+			font-size: 15px;
+		}
+	}
+}

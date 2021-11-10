@@ -1,0 +1,126 @@
+@import 'styles/theme.scss';
+
+.event_container {
+	padding-top: 8px;
+	padding-bottom: 40px;
+
+	.event_card {
+		color: $black;
+		padding: 10px 16px;
+		cursor: pointer;
+		margin: auto 60px;
+		height: 100%;
+		transition: .3s;
+		position: relative;
+		background-color: $white;
+
+		h4 {
+			font-weight: 700;
+			color: $black;
+		}
+
+		.type {
+			color: $primary;
+			font-size: 1.4rem;
+			line-height: 1.5rem;
+		}
+
+		.date {
+			color: $grey-dark;
+			font-size: 1.1rem;
+			line-height: 1.2rem;
+			font-weight: 700;
+			margin-bottom: 0;
+		}
+		
+		.l1 {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			left: 0;
+
+			&::after {
+				height: 0;
+				width: 2px;
+				left: 0;
+				bottom: 0;
+				display: inline-block;
+				position: absolute;
+				background: linear-gradient(transparent, $primary 70%);
+				transition: .15s ease-in-out;
+				content: "";
+			}
+		
+			&::before {
+				height: 2px;
+				width: 0;
+				right: 0;
+				bottom: 0;
+				display: inline-block;
+				position: absolute;
+				background: linear-gradient(90deg, $primary 80%, transparent);
+				transition: .3s .12s ease-in-out;
+				content: "";
+				margin-right: auto;
+			}
+		}
+		
+		.l2 {
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			
+			&::after {
+				height: 0;
+				width: 2px;
+				right: 0;
+				top: 0;
+				display: inline-block;
+				position: absolute;
+				background: linear-gradient($primary 40%, transparent);
+				transition: .15s ease-in-out;
+				content: "";
+			}
+		
+			&::before {
+				height: 2px;
+				width: 0;
+				left: 0;
+				top: 0;
+				display: inline-block;
+				position: absolute;
+				background: linear-gradient(-90deg, $primary 80%, transparent);
+				transition: .3s .12s ease-in-out;
+				content: "";
+				margin-right: auto;
+			}
+		}
+
+		&:hover {
+			.l1 {
+				&::before {
+					width: 100%;
+					transition: .15s ease-in-out;
+				}
+
+				&::after {
+					height: 100%;
+					transition: .3s .12s ease-in-out;
+				}
+			}
+			
+			.l2 {
+				&::before {
+					width: 100%;
+					transition: .15s ease-in-out;
+				}
+
+				&::after {
+					height: 100%;
+					transition: .3s .12s ease-in-out;
+				}
+			}
+		}
+	}
+}
